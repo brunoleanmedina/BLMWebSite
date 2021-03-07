@@ -1,0 +1,53 @@
+#startSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 0px 50px 0px;
+}
+
+#welcome {
+  color: #a3e4d7;
+  letter-spacing: 25px;
+  font-size: 150px;
+  font-weight: 100;
+  text-shadow: 10px 10px 10px black;
+}
+
+#divButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0px 0px 0px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  -webkit-box-shadow: 3px 3px 10px black;
+          box-shadow: 3px 3px 10px black;
+  border-width: 10px;
+  border-radius: 20%;
+  border-color: #a3e4d7;
+}
+
+* {
+  background-color: #f8f8f8;
+  font-family: Raleway;
+  font-weight: 300;
+}
+/*# sourceMappingURL=styles.css.map */
