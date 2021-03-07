@@ -1,6 +1,6 @@
 import React from "react";
 import myImg from "../../media/myIcon.jpg";
-import "./Hero.css";
+
 
 const Hero = () => {
     return(

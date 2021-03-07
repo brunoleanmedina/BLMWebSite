@@ -1,5 +1,6 @@
 import React from 'react';
-import PushButtons from '../PushButtons/PushButtons';
+import PushButtons from '../PushButtons/PushButtons.jsx';
+
 
 
 const Start = () => {

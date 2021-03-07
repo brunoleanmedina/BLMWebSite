@@ -1,20 +1,28 @@
-#startSection {
+section {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 0px 0px 50px 0px;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80vw;
+  height: 100vh;
+  margin: 100px 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
 }
 
-#welcome {
-  color: #a3e4d7;
-  letter-spacing: 25px;
-  font-size: 150px;
-  font-weight: 100;
-  text-shadow: 10px 10px 10px black;
+img {
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
 }
 
 #divButton {
@@ -35,19 +43,49 @@
 }
 
 button {
+  cursor: pointer;
+  color: #1f88ce;
   margin: 10px;
   padding: 5px;
   font-size: 20px;
-  -webkit-box-shadow: 3px 3px 10px black;
-          box-shadow: 3px 3px 10px black;
-  border-width: 10px;
-  border-radius: 20%;
-  border-color: #a3e4d7;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 0px 0px 15px #aaacad;
+          box-shadow: 0px 0px 15px #aaacad;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: #f8f8f8;
+}
+
+section {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80vw;
+  height: 100vh;
+  margin: 100px 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+}
+
+img {
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
 }
 
 * {
-  background-color: #f8f8f8;
   font-family: Raleway;
   font-weight: 300;
+  background-color: #e5e7e9;
 }
 /*# sourceMappingURL=styles.css.map */

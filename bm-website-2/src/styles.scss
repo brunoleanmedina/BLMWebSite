@@ -1,15 +1,13 @@
-@import "../src/components/Start/Start";
-@import "../src/components/PushButtons/PushButton";
-
-
 *{
-    background-color: rgb(248, 248, 248 );
+
     font: {
         family: Raleway;
         weight: 300;
     }
-    
+    background-color: rgb(229, 231, 233);
 }
 
+@import "../src/components/Hero/Hero";
+@import "../src/components/PushButtons/PushButton";
 
 
