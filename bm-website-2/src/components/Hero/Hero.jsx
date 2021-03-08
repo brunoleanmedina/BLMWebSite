@@ -4,7 +4,7 @@ import myImg from "../../media/myIcon.jpg";
 
 const Hero = () => {
     return(
-        <section>
+        <section id="myPresentation">
             <img src={myImg} alt=":T"/>
             <div id="textSection">
                 <h1>Bruno Medina</h1>

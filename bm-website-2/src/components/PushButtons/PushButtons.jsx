@@ -9,14 +9,17 @@ const PushButtons = () =>{
 
         <div id="divButton">
 
-            <button>My Projects</button>
-            <button>My History</button>
-            <button>My Skills</button>
-            <button>My Knowledge</button>
-            <button>About this site</button>
-
-
+            <button className="change">History</button>
+            <button className="change">Projects</button>
+            <button className="change">Skills</button>
+            <button className="change">Knowledge</button>
+            <button className="change">About this site</button>
+            <button className="change">Contact</button>
         </div>
     );
 }
+document.querySelectorAll("button").forEach(button =>{
+    button.addEventListener('click', () =>
+    button.classList.toggle("change"));
+});
 export default PushButtons;

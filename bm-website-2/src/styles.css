@@ -1,28 +1,22 @@
-section {
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 80vw;
-  height: 100vh;
-  margin: 100px 0px 0px 0px;
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
+#myPresentation {
+  display: none;
 }
 
 img {
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
+  margin-right: 130px;
+}
+
+#textSection {
+  margin-right: 300px;
+}
+
+#textSection h1 {
+  font-size: 50px;
+  margin: 25px 0px 0px 0px;
+}
+
+#textSection h2 {
+  font-size: 30px;
 }
 
 #divButton {
@@ -39,25 +33,60 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 30px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+}
+
+.change {
+  opacity: 0.5;
 }
 
 button {
+  font-size: 30px;
+  border-radius: 0px;
+  border: 0px;
   cursor: pointer;
-  color: #1f88ce;
-  margin: 10px;
-  padding: 5px;
-  font-size: 20px;
-  background-color: #f8f8f8;
-  -webkit-box-shadow: 0px 0px 15px #aaacad;
-          box-shadow: 0px 0px 15px #aaacad;
-  border-width: 3px;
-  border-radius: 20px;
-  border-color: #f8f8f8;
+  text-decoration: underline;
 }
 
-section {
-  background-color: white;
+#startSection {
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#welcomeH1 {
+  letter-spacing: 25px;
+  margin-bottom: 5%;
+  font-size: 150px;
+  font-weight: 100;
+}
+
+#welcomeP {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+* {
+  font-family: Raleway;
+  font-weight: 100;
+  color: white;
+  background-color: #273746;
+}
+
+* section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,21 +100,7 @@ section {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 80vw;
-  height: 100vh;
-  margin: 100px 0px 0px 0px;
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
-}
-
-img {
-  -webkit-box-shadow: 0px 0px 10px;
-          box-shadow: 0px 0px 10px;
-}
-
-* {
-  font-family: Raleway;
-  font-weight: 300;
-  background-color: #e5e7e9;
+  width: 90%;
+  margin: 5% 5% 0% 5%;
 }
 /*# sourceMappingURL=styles.css.map */

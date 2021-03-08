@@ -9,8 +9,11 @@ const Start = () => {
 
         <section id="startSection">
 
-            <h1 id="welcome">WELCOME</h1>
+            <h1 id="welcomeH1">WELCOME</h1>
+            <p id="welcomeP">Thank you for accessing my website</p>
+
             <PushButtons/>
+
 
         </section>
 

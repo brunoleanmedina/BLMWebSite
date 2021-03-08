@@ -1,37 +1,30 @@
 
-section{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 80vw;
-    height: 80vh;
-    margin: 100px 0px 0px 50px;
-    box-shadow: 0px 0px 10px;
-    //border-radius: 10px;
+#myPresentation{
+    display: none;
+   
 }
 
 img{
-    //border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(115, 198, 182, 0.5);
+   
     margin-right: 130px;
 }
-@mixin presentationStyle($color, $size) {
-    background-color: $color;
+@mixin presentationStyle($size) {
+
     font-size: $size;
+
 }
 #textSection{
-    @include presentationStyle(white, none);
+
     margin-right: 300px;
     
     h1{
-        @include presentationStyle(white, 100px);
+        @include presentationStyle(50px);
         margin: 25px 0px 0px 0px;
     }
+
     h2{
         
-        @include presentationStyle(white, 40px )
+        @include presentationStyle(30px)
 
     }
 }
