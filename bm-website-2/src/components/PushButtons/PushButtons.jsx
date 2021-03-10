@@ -1,25 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
+const PushButtons = ({content}) =>{
 
-const PushButtons = () =>{
+    const [enabled, setEnabled] = useState(true)
+    const className = enabled ? "" : "disabled"
 
     return (
 
 
         <div id="divButton">
 
-            <button className="change">History</button>
-            <button className="change">Projects</button>
-            <button className="change">Skills</button>
-            <button className="change">Knowledge</button>
-            <button className="change">About this site</button>
-            <button className="change">Contact</button>
+            <button  className={className}  onClick={() => setEnabled(!enabled)} >{content}</button>
+        
         </div>
     );
 }
-document.querySelectorAll("button").forEach(button =>{
-    button.addEventListener('click', () =>
-    button.classList.toggle("change"));
-});
+
 export default PushButtons;
