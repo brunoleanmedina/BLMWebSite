@@ -12,15 +12,7 @@ const Start = () => {
 
             <h1 id="welcomeH1">WELCOME</h1>
             <p id="welcomeP">Thank you for accessing my website</p>
-            <div id="divButton">
-                <PushButtons content="About Me"/>
-                <PushButtons content="Projects"/>
-                <PushButtons content="Skills"/>
-                <PushButtons content="Knowledge"/>
-                <PushButtons content="About Site"/>
-                <PushButtons content="Contact"/>
-            </div>
-
+            
 
         </section>
 

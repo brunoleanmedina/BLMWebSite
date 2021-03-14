@@ -1,24 +1,27 @@
 #startSection{
-    width: 90%;
-    margin: 0% 5% 0% 5%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    
 }
+
+
+
 #welcomeH1{
-    letter-spacing: 25px;
+    letter-spacing: 5vw;
     margin-bottom: 5%;
 
     font: {
-        size: 150px;
+        size: 10vw;
         weight: 100;
     }
+
+    
 }
 #welcomeP{
-    font-size: 30px;
+    font-size: 4vw;
     margin-bottom: 70px;
     
 }

@@ -10,13 +10,7 @@ function App(){
   return (
     <div>
       <Start/>
-      <Hero/>
-      <Content title='Projects'/>
-      <Content title='Skills'/>
-      <Content title='Knowledge'/>
-      <Content title='About Site'/>
-      <Content title='Contact '/>
-
+    
 
       
     </div>
