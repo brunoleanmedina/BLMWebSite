@@ -2,13 +2,15 @@ import React from "react";
 import myImg from "../../assets/media/myImg.jpg";
 
 
-const Hero = (aboutMe) => {
+const Presentation = () => {
     return(
         <section id="myPresentation">
-            <img src={myImg} alt=":T"/>
-            <div id="textSection">
+                <img src={myImg} alt=":T"/>
+
+            
+            <div>
                 <h1>Bruno Medina</h1>
-                <h2>Web Developer</h2>
+                <h3>Web Developer</h3>
                 <p>I am a young developer looking for the first work experience, 
                     prepared and excited to apply my acquired knowledge and learn 
                     new technologies!. 
@@ -21,4 +23,4 @@ const Hero = (aboutMe) => {
     );
 };
 
-export default Hero
+export default Presentation

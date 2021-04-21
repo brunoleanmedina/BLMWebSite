@@ -1,36 +1,35 @@
 #startSection{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-
-
-
-#welcomeH1{
-    letter-spacing: 5vw;
-    margin-bottom: 5%;
-
-    font: {
-        size: 10vw;
-        weight: 100;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 0px 10px black;
+    h1{
+        letter-spacing: 5vw;
+        margin-top: -5vw;
+        font: {
+            size: 10vw;
+            weight: 100;
+        }
+        background-color: transparent;
+        
+    }
+    h2{
+        font-size: 4vw;
+        background-color: transparent;
     }
 
-    
-}
-#welcomeP{
-    font-size: 4vw;
-    margin-bottom: 70px;
-    
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
 }
 
-#divButton{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
+
+

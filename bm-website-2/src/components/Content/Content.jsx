@@ -2,15 +2,16 @@ import React from 'react';
 
 
 
-const Content = ({title, info}) => {
+const Content = ({title,projectLink, projectName, info }) => {
 
     return (
-        <section>
-            <h1>{title}</h1>
-            <div>
-                {info}
-            </div>
-        
+        <section id="sectionContent">
+            <h1>{title} <a href={projectLink}>{projectName}</a></h1>
+        <div>
+            {info}
+        </div>
+            
+    
         </section>
     );
 }

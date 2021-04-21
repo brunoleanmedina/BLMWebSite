@@ -1,40 +1,153 @@
+* {
+  background-color: transparent;
+  scroll-behavior: smooth;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.5vw;
+  color: white;
+  letter-spacing: 1px;
+}
+
+* body {
+  background-color: #262626;
+}
+
+* h1 {
+  font-size: 3vw;
+  margin: 5vw 10vw 1vw;
+}
+
+* br {
+  width: 5vw;
+}
+
 #myPresentation {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  min-height: 20vw;
+  background-color: #323232;
+  margin-left: 10vw;
+  -webkit-box-shadow: -5px 5px 10px black;
+          box-shadow: -5px 5px 10px black;
 }
 
-img {
-  margin-right: 130px;
+#myPresentation img {
+  margin: 3%;
+  width: 20%;
+  height: 100%;
+  border-radius: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-#textSection {
-  margin-right: 300px;
+#myPresentation h1 {
+  margin: 1% 3%;
 }
 
-#textSection h1 {
-  font-size: 50px;
-  margin: 25px 0px 0px 0px;
+#myPresentation h3 {
+  margin: 0% 3%;
 }
 
-#textSection h2 {
-  font-size: 30px;
+#myPresentation p {
+  margin: 2vw 0px 0px 2vw;
+  -webkit-transition: border-radius 0.5s, opacity 0.5s;
+  transition: border-radius 0.5s, opacity 0.5s;
 }
 
-button.disabled {
-  opacity: 1;
-  text-decoration: underline;
+#divButton {
+  position: relative;
 }
 
-button {
-  opacity: 0.7;
-  font-size: 30px;
-  border-radius: 0px;
+#divButton button {
   border: 0px;
+  border-radius: 1px 24px 1px 24px;
   cursor: pointer;
+  background-color: #555555;
+  z-index: 1;
+  opacity: 0.8;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+  -webkit-transition: border-radius 0.5s, opacity 0.5s;
+  transition: border-radius 0.5s, opacity 0.5s;
+  margin: 1vw;
+}
+
+@-webkit-keyframes btnAnimation {
+  0% {
+    border-radius: 1px 1px 1px 1px;
+  }
+  20% {
+    border-radius: 1px 24px 10px 1px;
+  }
+  40% {
+    border-radius: 1px 1px 24px 10px;
+  }
+  60% {
+    border-radius: 10px 1px 1px 24px;
+  }
+  80% {
+    border-radius: 24px 10px 1px 1px;
+  }
+  100% {
+    border-radius: 1px 1px 1px 1px;
+  }
+}
+
+@keyframes btnAnimation {
+  0% {
+    border-radius: 1px 1px 1px 1px;
+  }
+  20% {
+    border-radius: 1px 24px 10px 1px;
+  }
+  40% {
+    border-radius: 1px 1px 24px 10px;
+  }
+  60% {
+    border-radius: 10px 1px 1px 24px;
+  }
+  80% {
+    border-radius: 24px 10px 1px 1px;
+  }
+  100% {
+    border-radius: 1px 1px 1px 1px;
+  }
+}
+
+#divButton button:hover {
+  opacity: 1;
+  -webkit-animation-name: btnAnimation;
+          animation-name: btnAnimation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+#divButton button a {
+  color: black;
+  font-size: 2vw;
+  text-decoration: underline;
+  background-color: #fff9f9;
 }
 
 #startSection {
-  width: 90%;
-  margin: 0% 5% 0% 5%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,21 +161,25 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #323232;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
 }
 
-#welcomeH1 {
-  letter-spacing: 25px;
-  margin-bottom: 5%;
-  font-size: 150px;
+#startSection h1 {
+  letter-spacing: 5vw;
+  margin-top: -5vw;
+  font-size: 10vw;
   font-weight: 100;
+  background-color: transparent;
 }
 
-#welcomeP {
-  font-size: 30px;
-  margin-bottom: 70px;
+#startSection h2 {
+  font-size: 4vw;
+  background-color: transparent;
 }
 
-#divButton {
+#startSection div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,10 +197,98 @@ button {
   height: auto;
 }
 
-* {
-  font-family: Raleway;
-  font-weight: 100;
-  color: white;
-  background-color: #273746;
+#navDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 5vw;
+}
+
+#navDiv button {
+  width: 13vw;
+  height: 3vw;
+  border: 0px;
+  border-radius: 1px;
+  cursor: pointer;
+  background-color: #fff9f9;
+  z-index: 1;
+  opacity: 0.8;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+  -webkit-transition: border-radius 0.5s, opacity 0.5s;
+  transition: border-radius 0.5s, opacity 0.5s;
+}
+
+#navDiv button:hover {
+  opacity: 1;
+}
+
+#navDiv button a {
+  color: black;
+  font-size: 2vw;
+  text-decoration: underline;
+  background-color: #fff9f9;
+}
+
+#sectionContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80vw;
+  min-height: 20vw;
+  margin-left: 10vw;
+  background-color: #323232;
+  -webkit-box-shadow: -5px 5px 10px black;
+          box-shadow: -5px 5px 10px black;
+}
+
+#sectionContent h1 {
+  margin: 3% 0% 0% 3%;
+}
+
+#sectionContent div {
+  width: 80%;
+  margin: 3% 10%;
+}
+
+#sectionContent div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 10vw;
+}
+
+#sectionContent div ul li {
+  margin: 1% 1%;
 }
 /*# sourceMappingURL=styles.css.map */

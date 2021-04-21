@@ -1,18 +1,11 @@
 import React from 'react';
 
-const ContentList = () =>{
+const ContentList = ({dataList}) =>{
     return(
-        <section>
-            <ol>
-                <li>
-                    <p>
-                        
-                    </p>
-                </li>
-            
-            </ol>
-        </section>
+            <li>
+                {dataList}
+            </li>
     )
 }
 
-export default ContetnList
+export default ContentList

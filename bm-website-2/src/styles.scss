@@ -1,18 +1,37 @@
-@import "../src/components/Hero/Hero";
-@import "../src/components/PushButtons/PushButton";
-@import "../src/components/Start/Start";
+//General Styles
 *{
-    
-
-
+    body{
+        background-color: rgb(38, 38, 38);
+    }
+    background-color: transparent;
+    scroll-behavior: smooth;
+    margin: 0px;
     font: {
-       // family: Raleway;
+        family: 'Raleway', sans-serif;
         weight: 100;
+        size: 1.5vw;
     }
     color: white;
-    background-color: rgb(39, 55, 70);
+    letter-spacing: 1px;
+    
+    h1{
+        font-size: 3vw;
+        margin: 5vw 10vw 1vw;
+
+    }
+    br{
+        width: 5vw;
+    }
+
 }
 
+
+//Import Section
+@import "./components/Presentation/Presentation";
+@import "./components/PushButtons/PushButton";
+@import "./components/Start/Start";
+@import "./components/Navigation/Navigation";
+@import "./components/Content/Content";
 
 
 
