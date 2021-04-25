@@ -5,7 +5,8 @@ import Navigation from './components/Navigation/Navigation.jsx';
 import Start from './components/Start/Start.jsx';
 import Presentation from './components/Presentation/Presentation.jsx';
 import Content from './components/Content/Content.jsx';
-import ContentList from './components/Content/ContentList';
+import ContentList from './components/Content/ContentList.jsx';
+import Footer from './components/Footer/Footer.jsx'
 
 const contentInfo1 = {
   title: "First Portfolio",
@@ -98,16 +99,22 @@ function App(){
 			info={contentList2.info}
 		/>
 	
-		<br/>
+	<br/>
 
 	<Content
 			title={contentList3.title}
 			info={contentList3.info}
 		/>
   
-	  <h1 id="contact">Contact</h1>
+	  
+
+	<br/>
+	
+	<h1 id="contact">Contact</h1>
+	<Footer/>
 
 	</div>
+	
 	
   );
   
