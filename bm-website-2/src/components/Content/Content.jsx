@@ -8,7 +8,7 @@ const Content = ({title,projectLink, projectName, info }) => {
         <section id="sectionContent">
             <h1>{title} <a href={projectLink}>{projectName}</a></h1>
         <div>
-            {info}
+            <p>{info}</p>
         </div>
             
     

@@ -1,8 +1,15 @@
 #sectionFooter{
     width: 100%;
-    height: 10vw;
+    height: 15vw;
     display: flex;
     flex-direction: row;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.76);
+    h1{
+        margin: 0px;
+        position: absolute;
+
+    }
     div{
         width: 25%;
         height: 100%;
@@ -10,7 +17,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: black;
         a{
             display: flex;
             flex-direction: row;
@@ -22,6 +28,27 @@
             }
         }
         
+    }
+    @media (max-width: 720px) and (min-height: 360px){
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+
+        h1{
+            position: relative;
+        }
+        div{
+            justify-content: center;
+            width: 98%;
+            margin: 2%;
+            a{
+                font-size: 2vh;
+                
+                img{
+                    margin: 0;
+                }
+            }
+        }
     }
     
 }

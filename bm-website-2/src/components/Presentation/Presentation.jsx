@@ -5,7 +5,8 @@ import myImg from "../../assets/media/myImg.jpg";
 const Presentation = () => {
     return(
         <section id="myPresentation">
-                <img src={myImg} alt=":T"/>
+            
+            <img src={myImg} alt=":T"/>
 
             
             <div>
@@ -13,7 +14,7 @@ const Presentation = () => {
                 <h3>Web Developer</h3>
                 <p>I am a young developer looking for the first work experience, 
                     prepared and excited to apply my acquired knowledge and learn 
-                    new technologies!. 
+                    new technologies!.{<br/>}
                     I started with the basics, learning HTML, CSS, 
                     and JavaScript, to get a basic web dev profile. My goal, is to get in 
                     to a formal CS career like Programmer Analyst 

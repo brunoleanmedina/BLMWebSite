@@ -1,12 +1,15 @@
-import React from 'react';
+//Important import section
+import React, {useState} from 'react';
 import './styles.scss';
 
+//Section of component import
 import Navigation from './components/Navigation/Navigation.jsx';
 import Start from './components/Start/Start.jsx';
 import Presentation from './components/Presentation/Presentation.jsx';
 import Content from './components/Content/Content.jsx';
 import ContentList from './components/Content/ContentList.jsx';
-import Footer from './components/Footer/Footer.jsx'
+import Footer from './components/Footer/Footer.jsx';
+
 
 const contentInfo1 = {
   title: "First Portfolio",
@@ -18,7 +21,7 @@ const contentInfo2 = {
 	title: "Second Portfolio",
 	projectName: "(BLMWebSite2.0)",    
 	projectLink: "https://github.com/brunoleanmedina/BLMWebSite2.0",
-	info: "You are in the project right now, this is a project that i really liked because i could use React Js and SASS. I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and undestand the importance about  clean code and do evrything in difenrts place for understand and find errors, and that is why i use Sass, with sass i can aplicate this mthod and spearte CSS. You are in the project but any way i leet the URL for my Git Hub."
+	info: "You are in the project right now, this is a project that i really liked because i could use React Js and SASS. " + "I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and undestand the importance about  clean code and do evrything in difenrts place for understand and find errors, and that is why i use Sass, with sass i can aplicate this mthod and spearte CSS. You are in the project but any way i leet the URL for my Git Hub."
   };
 const contentList1 = {
 	title: "Knowledges",  
@@ -63,12 +66,26 @@ const contentList3 = {
 		</ul>
   };
   
-  //<ul> 
 function App(){
 
-  
+  const [state, setState] = useState(false);
+
+  const handleClick = () => {
+	setState(!state);
+	const sectionNav = document.getElementById("sectionNav");
+	let classListValue = sectionNav.classList.value;
+	if(classListValue === "hidden"){
+		sectionNav.classList.replace("hidden", "show")
+	}else{
+		sectionNav.classList.replace("show", "hidden")
+	}
+  }
+
+
   return (
+	
 	<div>
+	  <button id="myBtn" onClick={handleClick}><div></div><div></div><div></div></button>
 	  <Navigation/>
 	  <Start/>
 	  <h1 id="aboutMe">About Me</h1>
@@ -110,7 +127,7 @@ function App(){
 
 	<br/>
 	
-	<h1 id="contact">Contact</h1>
+
 	<Footer/>
 
 	</div>
