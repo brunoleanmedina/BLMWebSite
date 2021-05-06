@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c480420.chunk.css",
+    "main.js": "/static/js/main.f37b5406.chunk.js",
+    "main.js.map": "/static/js/main.f37b5406.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8ae1ba3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8ae1ba3d.js.map",
+    "static/js/2.39ad04a7.chunk.js": "/static/js/2.39ad04a7.chunk.js",
+    "static/js/2.39ad04a7.chunk.js.map": "/static/js/2.39ad04a7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7c480420.chunk.css.map": "/static/css/main.7c480420.chunk.css.map",
+    "static/js/2.39ad04a7.chunk.js.LICENSE.txt": "/static/js/2.39ad04a7.chunk.js.LICENSE.txt",
+    "static/media/github.a855c397.png": "/static/media/github.a855c397.png",
+    "static/media/linkedin (1).6892b3ae.png": "/static/media/linkedin (1).6892b3ae.png",
+    "static/media/myImg.90efb3ee.jpg": "/static/media/myImg.90efb3ee.jpg",
+    "static/media/outlook (1).9b3b470a.png": "/static/media/outlook (1).9b3b470a.png",
+    "static/media/phone.7943f54a.png": "/static/media/phone.7943f54a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ae1ba3d.js",
+    "static/js/2.39ad04a7.chunk.js",
+    "static/css/main.7c480420.chunk.css",
+    "static/js/main.f37b5406.chunk.js"
+  ]
+}
