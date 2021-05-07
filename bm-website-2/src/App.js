@@ -16,12 +16,13 @@ const contentInfo1 = {
   projectName: "(BLMWebSite1.0)",
   projectLink: "https://github.com/brunoleanmedina/BLMWebSite1.0",    
   info: "This is my first project, i maked this project for use the new knowledge learned (HTML, CSS).it is a simple portfolio web for do a explication about me. I did with simple HTMl for the structure/skeleton using HTML semantic with a simple CSS. You can find the proeject if you click on the name in title."
+  info: "This is my first project, i maked this project for use the new knowledge learned (HTML, CSS).it is a simple portfolio web for do a explication about me. I did with simple HTML for the structure/skeleton using HTML semantic with a simple CSS. You can find the proeject if you click on the name in title."
   };
 const contentInfo2 = {
 	title: "Second Portfolio",
 	projectName: "(BLMWebSite2.0)",    
 	projectLink: "https://github.com/brunoleanmedina/BLMWebSite2.0",
-	info: "You are in the project right now, this is a project that i really liked because i could use React Js and SASS. " + "I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and undestand the importance about  clean code and do evrything in difenrts place for understand and find errors, and that is why i use Sass, with sass i can aplicate this mthod and spearte CSS. You are in the project but any way i leet the URL for my Git Hub."
+	info: "You are in the project right now, this is a project that i really liked because i could use React Js and Sass. " + "I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and understand the importance about  clean code and do everythings in differents places for understand and find errors, that is why i use Sass, with Sass i can applay this method and divide my CSS. You are in the project but any way i left the URL for my Git Hub."
   };
 const contentList1 = {
 	title: "Knowledges",  
@@ -31,10 +32,10 @@ const contentList1 = {
 			<ContentList dataList="CSS"/>
 			<ContentList dataList="JavaScript"/>
 			<ContentList dataList="ReactJS"/>
-			<ContentList dataList="SASS"/>
-			<ContentList dataList="Electonics"/>
+			<ContentList dataList="Sass"/>
+			<ContentList dataList="Electronic"/>
 			<ContentList dataList="Mechanics"/>
-			<ContentList dataList="Pneumatics"/>
+			<ContentList dataList="Pneumatic"/>
 		</ul>
   };
 const contentList2 = {
@@ -44,13 +45,12 @@ const contentList2 = {
 			<ContentList dataList="HTMl/CSS"/>
 			<ContentList dataList="JavaScript"/>
 			<ContentList dataList="ReactJS"/>
-			<ContentList dataList="SASS"/>
-			<ContentList dataList="English(Advnaced)"/>
-			<ContentList dataList="Japanese(Basic)"/>
+			<ContentList dataList="Sass"/>
+			<ContentList dataList="English (Advanced)"/>
+			<ContentList dataList="Japanese (Basic)"/>
 			<ContentList dataList="Fast Learner"/>
 			<ContentList dataList="Good Team Player"/>
 			<ContentList dataList="Teamwork"/>
-			<ContentList dataList="Good Presence"/>
 			<ContentList dataList="Good Presence"/>
 		</ul>
   };
