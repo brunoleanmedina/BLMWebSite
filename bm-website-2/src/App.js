@@ -22,7 +22,7 @@ const contentInfo2 = {
 	title: "Second Portfolio",
 	projectName: "(BLMWebSite2.0)",    
 	projectLink: "https://github.com/brunoleanmedina/BLMWebSite2.0",
-	info: "You are in the project right now, this is a project that i really liked because i could use React Js and Sass. " + "I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and understand the importance about  clean code and do everythings in differents places for understand and find errors, that is why i use Sass, with Sass i can applay this method and divide my CSS. You are in the project but any way i left the URL for my Git Hub."
+	info: "You are in the project right now, this is a project that i really liked because i could use React Js and Sass. I made this page with the structure  of React Js based in components that helped me to understand about method Atomic design that is used in any web page also i could do and understand the importance about  clean code and do everythings in differents places for understand and find errors, that is why i use Sass, with Sass i can applay this method and divide my CSS. You are in the project but any way i left the URL for my Git Hub."
   };
 const contentList1 = {
 	title: "Knowledges",  
