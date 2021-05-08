@@ -16,7 +16,8 @@ const contentInfo1 = {
   projectName: "(BLMWebSite1.0)",
   projectLink: "https://github.com/brunoleanmedina/BLMWebSite1.0",    
   info: "This is my first project, i maked this project for use the new knowledge learned (HTML, CSS).it is a simple portfolio web for do a explication about me. I did with simple HTMl for the structure/skeleton using HTML semantic with a simple CSS. You can find the proeject if you click on the name in title."
-  info: "This is my first project, i maked this project for use the new knowledge learned (HTML, CSS).it is a simple portfolio web for do a explication about me. I did with simple HTML for the structure/skeleton using HTML semantic with a simple CSS. You can find the proeject if you click on the name in title."
+  info: "This is my first project, i maked this project for use the new knowledge learned (HTML, CSS).it is a simple portfolio web for do a explication about me. I did with simple HTMl for the structure/skeleton using HTML semantic with a simple CSS. You can find the project if you click on the name in title."
+
   };
 const contentInfo2 = {
 	title: "Second Portfolio",
@@ -46,7 +47,7 @@ const contentList2 = {
 			<ContentList dataList="JavaScript"/>
 			<ContentList dataList="ReactJS"/>
 			<ContentList dataList="Sass"/>
-			<ContentList dataList="English (Advanced)"/>
+			<ContentList dataList="English (Intermediate)"/>
 			<ContentList dataList="Japanese (Basic)"/>
 			<ContentList dataList="Fast Learner"/>
 			<ContentList dataList="Good Team Player"/>
